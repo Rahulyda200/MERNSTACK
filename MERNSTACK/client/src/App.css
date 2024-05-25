@@ -1,0 +1,212 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, figure, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #2c3e50;
+  padding: 15px 0;
+}
+
+.navbar-brand img {
+  max-width: 100px;
+  height: auto;
+}
+
+.navbar-toggler-icon {
+  background-color: #ecf0f1;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: #ecf0f1;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3498db;
+}
+
+/* Home Page Styles */
+.home-page {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.home-div {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Signup Page Styles */
+.signup {
+  margin-top: 50px;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-form {
+  width: 50%;
+}
+
+.signup-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+  color: #34495e;
+}
+
+.input_field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-submit {
+  background: #3498db;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.form-submit:hover {
+  background: #2980b9;
+}
+
+/* About Page Styles */
+.emp-profile {
+  background:lightcyan;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 20%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-head h5,
+.profile-head h6 {
+  color: #2c3e50;
+}
+
+.profile-rating span {
+  color: #3498db;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #3498db;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: 0;
+}
+
+/* Contact Page Styles */
+.contact-info {
+  background: #f4f4f4;
+  padding: 80px 0;
+}
+
+.contact_info_item {
+  margin-right: 30px;
+}
+
+.contact_form {
+  margin-top: 50px;
+}
+
+.contact_form_container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact_form_title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.contact_form_name,
+.contact_form_email,
+.contact_form_phone,
+.contact_form_message {
+  width: 100%;
+  padding: 15px;
+  margin-bottom:5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact_submit_button {
+  background: #3498db;
+  color: #ecf0f1;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.contact_submit_button:hover {
+  background: #2980b9;
+}
+
+/* Login Page Styles */
+.sign-in {
+  margin-top: 50px;
+}
+
+.signin-content {
+  display: flex;
+ 
+}
